@@ -1,0 +1,94 @@
+layout3
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>layout3</title>
+
+<style type="text/css">
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+font-family:arial;
+}
+#logodiv{
+width:100%;
+background-color:lightgrey;
+min-height:40px;
+line-height:40px;
+padding-left:20px;
+margin-bottom:10px;
+}
+
+#parent{
+width:100%;
+min-height:50px;
+display:flex;
+gap:30px;
+}
+#sidediv{
+width:30%;
+
+min-height:450px;
+
+
+}
+ #child2{
+         width:65%;
+         display: flex;
+         box-sizing: border-box;
+       background-color:"";
+       min-height: 500px;
+       flex-direction: column;
+     }
+     #p1{
+        width:100%;
+        background-color: lightgray;
+        min-height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-bottom: 10px;
+     }
+     #p2{
+        width:100%;
+        background-color: lightgray;
+        min-height: 400px;
+        text-align: center;
+        line-height: 400px;
+        }
+
+#footerdiv{
+width:100%;
+background-color:lightgrey;
+min-height:30px;
+line-height:30px;
+text-align:center;
+margin-top:10px;
+
+}
+#maindiv{
+ 
+width:80%;
+margin:auto;
+
+}
+</style>
+</head>
+
+<body>
+<div id="maindiv">
+<div id="logodiv">Logo</div>
+
+<div id="parent">
+<div id="sidediv">Side Bar navigation</div>
+ <div id="child2">
+        <p id="p1">Header</p>
+        <p id="p2">body area</p>
+    </div>
+    </div>
+<div id="footerdiv">Footer/Area</div>
+</div>
+</body>
+</html>
